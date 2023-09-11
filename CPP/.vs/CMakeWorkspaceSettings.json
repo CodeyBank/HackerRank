@@ -1,0 +1,4 @@
+{
+  "enableCMake": true,
+  "sourceDirectory": "hr_boundedvalue"
+}
