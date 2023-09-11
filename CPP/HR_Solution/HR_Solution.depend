@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1688141266 source:c:\users\hp\onedrive\documents\cpp folder\hackerrank\hr_solution\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+	<fstream>
+

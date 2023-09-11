@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1688123383 source:c:\users\hp\onedrive\documents\cpp folder\hackerrank\recursivesearch\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+

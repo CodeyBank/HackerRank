@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1688124784 source:c:\users\hp\onedrive\documents\cpp folder\hackerrank\hr_attributeparser\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+	<assert.h>
+	<fstream>
+	<map>
+	<string>
+
