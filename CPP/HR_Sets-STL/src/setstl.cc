@@ -39,5 +39,46 @@ using namespace std;
 int main()
 {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    std::set<int> dataset;
+    int Q{}, x{}, y{}; // number of queries
+    cin >> Q;
+    for (int i{}; i < Q; i++)
+    {
+        cin >> y >> x;
+        switch (y)
+        {
+        case 1://Add element x to set
+        {
+            dataset.insert(x);
+            break;
+        }
+
+        case 2://Delete element x from the set. Do nothing if not present
+        {
+            auto resIter = dataset.find(x);
+            if (resIter != dataset.end())
+            {
+                dataset.erase(*resIter);
+            }
+            break;
+        }
+        case 3://Check if element is in set. Print Yes if present else No
+        {
+            auto resIter = dataset.find(x);
+            if (resIter != dataset.end())
+            {
+                cout << "Yes" << endl;
+            }
+            else
+            {
+                cout << "No" << endl;
+            }
+            break;
+        }
+        default:
+            break;
+        }
+    }
+
     return 0;
 }

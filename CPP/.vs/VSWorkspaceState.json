@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HR_BoundedValue",
-    "\\HR_BoundedValue\\src"
+    "\\HR_BoundedValue\\src",
+    "\\HR_PrintPretty",
+    "\\HR_PrintPretty\\src",
+    "\\HR_Sets-STL"
   ],
-  "SelectedNode": "\\HR_BoundedValue\\src\\bounded.cpp",
+  "SelectedNode": "\\HR_PrintPretty\\src\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
