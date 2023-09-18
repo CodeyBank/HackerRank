@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HR_BoundedValue\\src",
-    "\\HR_PrintPretty",
-    "\\HR_PrintPretty\\src",
-    "\\HR_Sets-STL"
+    "\\HR_OverLoadedOperators",
+    "\\HR_OverLoadedOperators\\src"
   ],
-  "SelectedNode": "\\HR_PrintPretty\\src\\CMakeLists.txt",
+  "SelectedNode": "\\HR_OverLoadedOperators\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
