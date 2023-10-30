@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HR_OverLoadedOperators",
-    "\\HR_OverLoadedOperators\\src"
+    "\\HR_CPPVariadics",
+    "\\HR_CPPVariadics\\src",
+    "\\HR_ExceptionalServer",
+    "\\HR_ExceptionalServer\\src",
+    "\\HR_ExceptionHandling",
+    "\\HR_HotelPrices",
+    "\\HR_InheritanceIntroduction",
+    "\\HR_InheritanceRectangleArea",
+    "\\HR_InheritanceRectangleArea\\src"
   ],
-  "SelectedNode": "\\HR_OverLoadedOperators\\CMakeLists.txt",
+  "SelectedNode": "\\HR_CPPVariadics\\src\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }

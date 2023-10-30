@@ -56,25 +56,27 @@ int CalculateMaxWorkshops(Available_Workshops *ptr)
 {
     /**
      * Steps
-     * 0. Create a variable to store MaxWorkshops, initialized to 0
-     * 1. Go through the list of available workshops.
-     * 2. Check that the end time of each workshop is less than the start time of the subsequent
+     * 0. Create a array to store MaxWorkshops, initialized to 0. If there are 5 available workshops, then there
+     *     5 possible max values.
+     * 1. Go through the list of available workshops, starting at i=0 (ie, the first item). Initialize another variable k=i;
+     * 2. Check that the end time of each workshop at k is less than the start time of the subsequent, j (i+1)
      * 3. If check passes, increment MaxWorkshops, else skip
      */
 
 
     // start iterating through the array of workshops starting from the begining
     vector<int>MaxWorkshops(ptr->n,0);
-
+    int k;
     for (size_t i{}; i < ((size_t)ptr->n) - 1; i++)
     {
         MaxWorkshops[i] += 1;
+        k = i;
         for (size_t j{i+1}; j < (size_t)ptr->n; j++)
         {   
-            if (ptr->workshops[i].endTime < ptr->workshops[j].startTime)
+            if (ptr->workshops[k].endTime < ptr->workshops[j].startTime)
             {
-                MaxWorkshops[i] += 1;
-                i=j;
+                MaxWorkshops[k] += 1;
+                k = j;
             }
         }
     }
